@@ -8,9 +8,9 @@ if(table !=null)
         function()
         {
             if(this.style.backgroundColor == "red")
-            this.style.backgroundColor == "white";
+            this.style.backgroundColor = "white";
             else
-            this.style.backgroundColor == "red";
+            this.style.backgroundColor = "red";
         };
     }
 }
